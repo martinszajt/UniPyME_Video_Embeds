@@ -45,7 +45,7 @@
           if (activeSurvey === surveyURL) {
             activeSurvey = null;
             iframe.src =
-              "https://unipymelatam.com/emailImages/logo-unipyme-blanco.png";
+              "https://unipymelatam.com/survey-callback";
             iframe_container.classList.remove("visible");
           }
         }
