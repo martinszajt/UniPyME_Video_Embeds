@@ -2,6 +2,7 @@
    // Wistia Video
   const wistiaVideoId = "fe8502f5qi";
   
+
   
   let wistiaEmbed = document.getElementById("wistia_embed");
   wistiaEmbed.classList.add("wistia_async_" + wistiaVideoId);
