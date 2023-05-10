@@ -51,35 +51,7 @@
         }
       });
        
-       // Survey 2
-      video.bind("timechange", function (t) {
-        
-          // PopUp Spects
-        let openSecond = 35;
-        let closeSecond = 50;
-        let surveyURL = "https://es.surveymonkey.com/r/ZZZ5GB9";
-        let surveyHeight = '500px';
-        let surveyWidth = '600px';
-        
-        //Do-Not change
-        if (t > openSecond && t < closeSecond) {
-          if (!activeSurvey) {
-            iframe.style.height = surveyHeight;
-            iframe.style.width = surveyWidth;
-            activeSurvey = surveyURL;
-            iframe.src = surveyURL;
-            iframe_container.classList.add("visible");
-          }
-        }
-        if (t > closeSecond || t < openSecond) {
-          if (activeSurvey === surveyURL) {
-            activeSurvey = null;
-            iframe.src =
-              "https://unipymelatam.com/survey-callback";
-            iframe_container.classList.remove("visible");
-          }
-        }
-      });
+
       
     
     },
