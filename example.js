@@ -1,6 +1,5 @@
-document.addEventListener("DOMContentLoaded", function (event) {
-  
-  // Wistia Video
+
+   // Wistia Video
   const wistiaVideoId = "fe8502f5qi";
   
   
@@ -55,4 +54,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
     
     },
   });
-});
